@@ -1,10 +1,10 @@
 import hashlib
 import unittest
 
-from CyberSecurity.sha3 import sha3_512
-from CyberSecurity.sha3 import sha3_384
-from CyberSecurity.sha3 import sha3_256
-from CyberSecurity.sha3 import sha3_224
+from sha3 import sha3_512
+from sha3 import sha3_384
+from sha3 import sha3_256
+from sha3 import sha3_224
 
 
 class SmallTestCase(unittest.TestCase):

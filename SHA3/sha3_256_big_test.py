@@ -2,8 +2,8 @@ import hashlib
 import time
 import unittest
 
-from CyberSecurity.generate_string import generate_large_string
-from CyberSecurity.sha3 import sha3_256
+from generate_string import generate_large_string
+from sha3 import sha3_256
 
 
 class BigTestCase(unittest.TestCase):
