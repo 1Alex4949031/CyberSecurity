@@ -1,3 +1,5 @@
+import cProfile
+
 pi = [252, 238, 221, 17, 207, 110, 49, 22, 251, 196, 250, 218, 35, 197, 4, 77,
       233, 119, 240, 219, 147, 46, 153, 186, 23, 54, 241, 187, 20, 205, 95, 193,
       249, 24, 101, 90, 226, 92, 239, 33, 129, 28, 60, 66, 139, 1, 142, 79,
@@ -241,3 +243,5 @@ def kuznyechik_with_big_file(filepath):
     print("\nEncrypted:")
     for index, block in enumerate(blocks):
         print(f"{hex(kuznyechik_encrypt(block, key))} - {index}")
+
+# cProfile.run('kuznyechik_with_small_file("test_small.txt")') -- использовал для профайлинга.

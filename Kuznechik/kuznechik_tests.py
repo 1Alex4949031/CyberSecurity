@@ -1,4 +1,5 @@
 import unittest
+
 from gostcrypto.gostcipher import gost_34_12_2015
 
 from kuznechik import kuznyechik_encrypt, kuznyechik_decrypt, kuznyechik_with_small_file, kuznyechik_with_big_file
